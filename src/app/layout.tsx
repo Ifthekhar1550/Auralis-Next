@@ -25,7 +25,7 @@ export default function RootLayout({
     <html lang="en">
        <body className={`${inter.className} bg-[#101010] min-h-screen`}>
         <Script src="https://kit.fontawesome.com/f060e66234.js" crossOrigin="anonymous" />
-        <div className="header-gradient "></div>  <div className="header-gradient "></div>
+        <div className="header-gradient "></div> 
         <Header />
         <main className="flex-1"></main>
         <Footer />
