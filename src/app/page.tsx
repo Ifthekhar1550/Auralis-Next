@@ -4,6 +4,10 @@ import BrandSection from "@/components/BrandSection";
 import HowItWorks from "@/components/HowItWorksSection";
 import Features from "@/components/FeatureSection";
 import UseCaseSection from "@/components/UseCaseSection";
+import Pricing from "@/components/PricingSection";
+import Testimonials from "@/components/testimonialsSection";
+import Blogs from "@/components/BlogSection";
+import NewsLetterSection from "@/components/NewsLetterSection";
 export default function Home() {
   return (
     <div>
@@ -13,6 +17,11 @@ export default function Home() {
       <HowItWorks></HowItWorks>
       <Features></Features>
       <UseCaseSection></UseCaseSection>
+      <Pricing></Pricing>
+      <Testimonials></Testimonials>
+      <Blogs></Blogs>
+      <NewsLetterSection></NewsLetterSection>
+
 
     </div>
   );

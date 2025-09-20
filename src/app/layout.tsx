@@ -19,7 +19,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-       <body className={`${inter.className} bg-[#101010] min-h-screen`}>
+       <body className={`${inter.className} bg-[#101010] min-h-screen overflow-x-hidden`}>
         {/* fontawesome */}
         <Script src="https://kit.fontawesome.com/f060e66234.js" crossOrigin="anonymous" />
         <div className="header-gradient "></div> 
