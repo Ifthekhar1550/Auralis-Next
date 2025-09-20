@@ -1,53 +1,9 @@
 "use client";
 
 import Image from "next/image";
+import { blogsData } from "../lib/mock-data";
 
-interface Blog {
-  id: number;
-  title: string;
-  description: string;
-  author: string;
-  date: string;
-  tag: string;
-  image: string;
-  authorImage: string;
-}
 
-const blogsData: Blog[] = [
-  {
-    id: 1,
-    title: "From clicks to sales: The role of AI in visual marketing",
-    description:
-      "How product images improve customer engagement and drive conversions.",
-    author: "Alisa Hester",
-    date: "August 19, 2025",
-    tag: "Marketing",
-    image: "/images/product/pexels-igor-ovsyannykov-56123-205961.jpg",
-    authorImage: "/images/testimonials/pexels-gabby-k-5876516.jpg",
-  },
-  {
-    id: 2,
-    title: "From clicks to sales: The role of AI in visual marketing",
-    description:
-      "How product images improve customer engagement and drive conversions.",
-    author: "Alisa Hester",
-    date: "August 19, 2025",
-    tag: "Marketing",
-    image: "/images/product/pexels-alexandra-maria-58259-336372.jpg",
-    authorImage: "/images/testimonials/pexels-gabby-k-5876516.jpg",
-  },
-  {
-    id: 3,
-    title: "From clicks to sales: The role of AI in visual marketing",
-    description:
-      "How product images improve customer engagement and drive conversions.",
-    author: "Alisa Hester",
-    date: "August 19, 2025",
-    tag: "Marketing",
-    image: "/images/product/pexels-nietjuhart-934070.jpg",
-    authorImage: "/images/testimonials/pexels-gabby-k-5876516.jpg",
-  },
-];
 
 export default function Blogs() {
   return (
@@ -87,7 +43,7 @@ export default function Blogs() {
                 alt={blog.title}
                 width={600}
                 height={400}
-                className="rounded-2xl object-cover group-hover:scale-105 transition-transform duration-300"
+                className="rounded-2xl w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
               />
               {/* Tag */}
               <div className="absolute top-6 left-6 z-10">

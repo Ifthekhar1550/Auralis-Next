@@ -2,10 +2,10 @@
 const Newsletter = () => {
   return (
     <section className="max-w-6xl mx-auto px-4 py-8">
-      <div className="grid grid-cols-1 md:grid-cols-3 justify-between items-center gap-8 relative bg-gradient-to-br from-[#1ee19b] to-[#0d3b3bcc] rounded-3xl p-4 overflow-hidden group cursor-pointer hover:shadow-xl hover:shadow-[#1ee19b]/12 transition-all duration-500">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-between items-center gap-8 relative bg-gradient-to-br from-[#1ee19b] to-[#0d3b3bcc] rounded-3xl p-4 overflow-hidden group cursor-pointer hover:shadow-xl hover:shadow-[#1ee19b]/12 transition-all duration-500">
         
         {/* Text */}
-        <div className="md:col-span-2">
+        <div className="lg:col-span-2">
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 leading-tight max-w-4xl md:px-8 text-left">
             Start Creating Stunning <br /> Products Photos Today.
           </h2>
